@@ -18,7 +18,7 @@ module "eks" {
   }
 
   eks_managed_node_groups = {
-    example = {
+    node-group = {
       ami_type                      = var.node_ami_type
       instance_types                = [var.node_instance_type]
       capacity_type                 = var.node_capacity_type
