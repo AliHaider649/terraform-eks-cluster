@@ -43,7 +43,7 @@ variable "kubernetes_version" {
   default = "1.33"
 }
 variable "node_instance_type" {
-  type    = string
+  type = string
 }
 variable "node_ami_type" {
   type    = string
