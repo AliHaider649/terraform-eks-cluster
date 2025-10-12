@@ -8,7 +8,7 @@ variable "node_instance_type" { type = string }
 variable "desired_capacity" { type = number }
 variable "min_capacity" { type = number }
 variable "max_capacity" { type = number }
-variable "cluster_version" { 
-    type = string
-    default = "1.33"
+variable "cluster_version" {
+  type    = string
+  default = "1.33"
 }
