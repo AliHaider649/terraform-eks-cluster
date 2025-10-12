@@ -44,7 +44,6 @@ variable "kubernetes_version" {
 }
 variable "node_instance_type" {
   type    = string
-  default = "t3.medium"
 }
 variable "node_ami_type" {
   type    = string
