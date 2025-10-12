@@ -1,0 +1,30 @@
+# 🔒 Terraform local files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# 🔑 Sensitive files
+*.pem
+*.key
+*.pub
+my_key
+my_key.pub
+# *.tfvars
+*.tfvars.json
+
+# 🗝️ Local environment or config files
+*.tfstate.*
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# 💻 IDE and OS junk
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
