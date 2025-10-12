@@ -1,6 +1,6 @@
 # alihaider-eks-cluster — EKS with Terraform & GitHub Actions
 
-**Author:** Ali Haider — DevOps Engineer (4+ years)
+**Author:** Ali Haider — DevOps Engineer 
 
 **Region:** us-east-1
 **Cluster Name:** alihaider-eks-cluster
@@ -57,5 +57,3 @@ Owner = "Ali Haider"
 - Enable S3 versioning for the Terraform state bucket.
 - Use PR reviews before merging to `main` (CI runs plan on PRs).
 
-## Contact
-Open an issue or PR on the repository for questions or improvements.
