@@ -48,7 +48,7 @@ variable "azs" {
 
 variable "node_instance_type" {
   type    = string
-  default = "t3.medium"
+  default = "t2.medium"
 }
 
 variable "desired_capacity" {
